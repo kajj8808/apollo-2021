@@ -2,6 +2,9 @@
 
 Movie App bulid with React , apollo and GraphQL.
 
+#   Movie API
+-   https://github.com/kajj8808/movieQL
+
 # Apollo 를 사용한이유.
 
 -   GraphQL API 를 사용하기 좋은방법이라.
