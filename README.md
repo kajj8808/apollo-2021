@@ -13,7 +13,7 @@ Movie App bulid with React , apollo and GraphQL.
 # yarn
 
 -   Add
--       yarn add styled-components react-router-dom apollo-boost @apollo/react-hooks graphql
+-     yarn add styled-components react-router-dom apollo-boost @apollo/react-hooks graphql
     -   styled-components | css 를 위한 것.
     -   react-router-dom | router 를 위한 것.
     -   apollo-boost, @apollo/react-hooks | 이 두개는 hooks를 사용하기 위한 것.
