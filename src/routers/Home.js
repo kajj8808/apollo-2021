@@ -40,15 +40,18 @@ const getMovies = gql`
             id
             title
             medium_cover_image
+            isLiked @client
         }
     }
 `;
+/* isLiked 는 backend 가아니라 frontend 에서 가져온다는말 @clint */
+
 
 const MovieContainer = styled.div`
     position: relative;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    width: 95%;
+    width: 60%;
     gap: 25px;
     top: -30px;
 `;
@@ -76,6 +79,7 @@ const HomePage = () => {
                             <Movie
                                 key={movie.id}
                                 id={movie.id}
+                                isLiked = {movie.isLiked}
                                 bg={movie.medium_cover_image}
                             />
                         ))}
